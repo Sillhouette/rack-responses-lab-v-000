@@ -5,9 +5,8 @@ class Application
     time = Kernel.rand(1..24)
 
     resp.write "#{time}\n"
-
-    if num_1 > 12
-    time = Time.new
+    
+    #time = Time.new
 
     resp.write "#{time}\n"
 
