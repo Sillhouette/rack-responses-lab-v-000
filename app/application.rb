@@ -5,7 +5,7 @@ class Application
     #time = Kernel.rand(1..24)
 
     resp.write "#{time}\n"
-    
+
     time = Time.new
 
     resp.write "#{time}\n"
