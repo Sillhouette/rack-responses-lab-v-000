@@ -2,11 +2,11 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-    #time = Kernel.rand(1..24)
+    time = Kernel.rand(1..24)
 
-    time = Time.new
+    #time = Time.new
 
-    resp.write "#{time}\n"
+    #resp.write "#{time}\n"
 
     if time.hour > 12
       resp.write "Good Afternoon!"
